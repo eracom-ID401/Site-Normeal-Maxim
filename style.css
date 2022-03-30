@@ -1,0 +1,100 @@
+.header{
+    background-color: grey;
+    width: 100%;
+    height: 10rem;
+    display: flex;
+}
+
+.headertitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    
+}
+
+.containerh2{
+    align-items: flex-start;
+}
+
+body{
+    margin: 0%;
+    background-color: rgb(194, 194, 194);
+}
+
+.listeing{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.grillelaybr{
+    display: inline-grid;
+    background-color: brown;
+    border-radius: 7px;
+    border: 2px solid rgb(87, 23, 23);
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+
+.grillelaybl{
+    display: inline-grid;
+    background-color: rgb(42, 110, 165);
+    border-radius: 7px;
+    border: 2px solid rgb(23, 35, 87);
+    grid-template-columns: 200px 200px 200px;
+
+
+}
+.grillelaygr{
+    display: inline-grid;
+    background-color: rgb(46, 165, 42);
+    border-radius: 7px;
+    border: 2px solid rgb(23, 87, 47);
+    grid-template-columns: 500px 1fr 2fr;
+
+}
+.grillelaypu{
+    display: inline-grid;
+    background-color: rgb(116, 42, 165);
+    border-radius: 7px;
+    border: 2px solid rgb(51, 23, 87);
+    grid-template-columns: 200px 200px 200px;
+
+}
+.grillelayyw{
+    display: inline-grid;
+    background-color: rgb(165, 147, 42);
+    border-radius: 7px;
+    border: 2px solid rgb(85, 67, 10);
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+
+.gallery {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+
+}
+
+.gallery__img {
+    width: 25vh;
+    height: 25vh;
+    object-fit: cover;
+    border: 6px solid rgb(59, 59, 59);
+    border-radius: 30%;
+
+}
